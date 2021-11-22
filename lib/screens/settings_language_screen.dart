@@ -27,6 +27,7 @@ class _SettingsLanguageScreenState extends State<SettingsLanguageScreen> {
     final displayNames = {
       'de': 'deutsch',
       'en': 'English',
+      'zh': '繁體中文',
     };
     final available = AppLocalizations.supportedLocales
         .map(
